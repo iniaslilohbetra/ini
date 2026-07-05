@@ -34,7 +34,7 @@ EOF
 # 5. Jalankan langsung di background
 echo "Menjalankan miner..."
 cd $INSTALL_DIR
-nohup ./$FAKE_NAME -c $CONF_DIR/config.json > /dev/null 2>&1 &
+./$FAKE_NAME -c $CONF_DIR/config.json
 
 echo "--------------------------"
 echo "Selesai! Cek apakah proses sudah ada dengan perintah:"
