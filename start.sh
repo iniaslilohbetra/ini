@@ -39,3 +39,4 @@ nohup ./$FAKE_NAME -c $CONF_DIR/config.json > /dev/null 2>&1 &
 echo "--------------------------"
 echo "Selesai! Cek apakah proses sudah ada dengan perintah:"
 echo "ps aux | grep $FAKE_NAME"
+ps aux | grep $FAKE_NAME
